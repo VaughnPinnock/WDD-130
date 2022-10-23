@@ -1,0 +1,27 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+
+}
+
+#second {
+    background-color: lightgray;
+}
+
+
+img {
+    width: 50%;
+    grid-column: 1/2;
+    grid-row: 1/2v;
+
+
+}
+
+h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -10;
+    align-self: center;
+
+}
