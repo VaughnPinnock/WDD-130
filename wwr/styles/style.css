@@ -251,6 +251,64 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+
+/* PAGE 2 CSS */
+
+#main_fork_info p {
+    color: white;
+    text-align: left;
+}
+
+#main_fork_info h1 {
+    color: #e9c46a;
+}
+
+.main_fork_pic {
+    float: left;
+    padding: 20px;
+}
+
+#desolation_info p {
+    color: white;
+    text-align: left;
+}
+
+#desolation_info h1 {
+    color: #e9c46a;
+}
+
+.desolation_pic {
+    float: left;
+    padding: 20px;
+}
+
+#grand_canyon_info p {
+    color: white;
+    text-align: left;
+}
+
+#grand_canyon_info h1 {
+    color: #e9c46a;
+}
+
+.grand_canyon_pic {
+    float: left;
+    padding: 20px;
+}
+
+.rivers-grid {
+    padding: 20px;
+}
+
+.main_fork {
+    padding: 10px;
+}
+
+.grand_canyon {
+    padding: 10px;
+}
+
+
 @media screen and (max-width: 900px) {
 
     #hero,
