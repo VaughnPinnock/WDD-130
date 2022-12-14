@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Fondamento&family=MonteCarlo&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* HEADER/NAV BAR */
+
+header {
+    background-color: #779CAB;
+    display: grid;
+    ;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
+nav a {
+    text-align: center;
+    justify-content: center;
+    color: #153b50;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #D1AC00;
+
+}
+
+nav img {
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* BODY */
+body {
+    background-color: #153b50;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN CONTENT */
+#hero {
+    position: relative;
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    height: 450px;
+    padding-bottom: 30px;
+}
+
+#hero-msg {
+    position: absolute;
+    top: 0;
+    font-family: 'Felipa';
+    color: #D1AC00;
+    line-height: 1.5em;
+    font-size: xx-large;
+    padding-left: 300px;
+    padding-top: 300px;
+
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.learning-card {
+    grid-column: 1/2;
+}
+
+.home-grid img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.home-grid p {
+    width: 350px;
+    padding-left: 30px;
+    color: #779CAB;
+    line-height: 2;
+    font-size: large;
+}
+
+.button {
+    padding-top: 50px;
+}
+
+.button button {
+    background-color: #D1AC00;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    padding: 14px 40px;
+    border-radius: 4px;
+    /* grid-template-columns: 2/3; */
+}
+
+/* FOOTER */
+
+footer {
+    /* background-color: #264653; */
+    background-color: #779CAB;
+    color: #153b50;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a img {
+    padding-left: 10px;
+}
