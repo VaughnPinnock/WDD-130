@@ -169,6 +169,87 @@ body {
     width: 400px;
 }
 
+/* PAGE 3 */
+.inspiration-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* gap: 10px; */
+}
+
+.inspiration-grid p,
+h2,
+h3,
+h1 {
+    color: #779CAB;
+    line-height: 2;
+    font-size: large;
+
+}
+
+.inspiration-main-card {
+    grid-column: 1/3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.inspiration-main-card img {
+    width: 600px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.inspiration-card1 img {
+    width: 400px;
+    float: left;
+    padding: 10px;
+}
+
+
+.inspiration-card2 img {
+    width: 400px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+}
+
+
+.inspiration-card3 img {
+    width: 256px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.inspiration-card4 {
+    grid-column: 1/2;
+
+}
+
+.inspiration-card4 img {
+    float: left;
+    padding: 10px;
+
+}
+
+.inspiration-card5 img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.inspiration-card5 {
+    padding-top: 25%;
+    grid-column: 2/3;
+    grid-row: 3/5;
+
+}
 
 
 
