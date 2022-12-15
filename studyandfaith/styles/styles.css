@@ -114,6 +114,64 @@ body {
     /* grid-template-columns: 2/3; */
 }
 
+/* PAGE 2 */
+
+#pg2hero-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.learning-grid {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    padding-top: 20px;
+
+}
+
+.learning-grid p {
+    color: #779CAB;
+    line-height: 2;
+    font-size: large;
+
+}
+
+.learning-style1 p,
+.learning-style2 p {
+    padding: 20px;
+
+}
+
+.learning-button {
+    padding-top: 100px;
+}
+
+.learning-button button {
+    background-color: #D1AC00;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    padding: 14px 40px;
+    border-radius: 4px;
+    /* margin: 0 auto; */
+
+}
+
+.learning-img {
+
+    grid-column: 1/4;
+}
+
+.learning-img img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+
+
 /* FOOTER */
 
 footer {
